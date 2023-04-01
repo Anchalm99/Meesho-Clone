@@ -1,0 +1,59 @@
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 130px;
+    
+  }
+  .cart .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cart .card img {
+    width: 42px;
+    height: 38px;
+  }
+  .cart .card p {
+    width: 180px;
+  }
+  .cart .card .quantity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cart .card .quantity p {
+    width: 50px;
+    text-align: center;
+  }
+  .cart .card .quantity button {
+    width: 50px;
+  }
+  .cart .total {
+    text-align: right;
+    border-top: 1px solid rgb(29, 18, 18);
+  }
+
+  .pointer{
+    cursor: pointer;
+  }
+
+  button{
+    cursor: pointer;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .btn{
+    display: block;
+    margin: auto;
+    width: 10rem;
+    background-color: rgb(100, 32, 67);
+    color: rgb(194, 173, 173);
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
